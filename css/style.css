@@ -1,0 +1,77 @@
+
+body{
+    background-color: purple;
+}
+.DT{
+    
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0%;
+}
+.dt
+{
+    align-self: flex-end;
+}
+.wrapper {
+    
+    background-color: gray;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    
+  }
+  .form-row {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+  }
+  .form-row > label {
+    /* padding: 0 0 0 0;
+     */
+     color: white;
+    flex: 0.5;
+  }
+  .form-row > input, 
+  .form-row > textarea{
+      /* background-color: gray; */
+    flex: 5;
+  }
+
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: whitesmoke;
+   color: black;
+   border: 0;
+  }
+  input:focus,
+  textarea:focus{
+      outline: none;
+      box-shadow: 0 0 0 2px orange;
+      background-color: rosybrown;
+      color:white;
+  }
+  button
+  {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  button:hover{
+      outline: none;
+      box-shadow: 0 0 0 2px black;
+      background-color: springgreen;
+      color: white;
+  }
+#re
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color:greenyellow;
+}
